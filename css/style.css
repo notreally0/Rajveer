@@ -3,11 +3,16 @@
 body{
     margin:0;
     font-family: "Jua", sans-serif;
+<<<<<<< HEAD
     overflow-x:hidden;
     overflow-y:auto;
     background: var(--page-bg);
     color: var(--text-color);
     transition: background-color 0.3s ease, color 0.3s ease;
+=======
+    background:url(Photo/paper-texture.jpg);
+    overflow:hidden;
+>>>>>>> 9820736254a74751453ea9d27ee7210f07c9a01d
 }
 
 .container{
@@ -132,6 +137,7 @@ body.dark-theme .fa-github{
         transform: translateY(0px);
     }
 }
+<<<<<<< HEAD
 
 @media (max-width: 900px) {
     .theme-toggle,
@@ -253,3 +259,5 @@ body.dark-theme .fa-github{
         gap: 14px 18px;
     }
 }
+=======
+>>>>>>> 9820736254a74751453ea9d27ee7210f07c9a01d
